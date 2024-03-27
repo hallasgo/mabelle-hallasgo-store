@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HALLASGO STORE</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+        <div class="topnav" id="myTopnav">
+        <a href="#home"  class="active">Home</a>
+        <a href="#abouts">About us</a>
+        <a href="products">Products</a>
+        <a href="promos">Promos</a>
+        <a href="contacts">Contact us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+</nav>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    </header>
+    <div class="container">
+        <img src="background.jpg" alt="Snow" style="width:100%;">
+        <div style="font-size:10vw" class="centered">HALLASGO STORE</div>
+      </div>
+      <hr>
+<div class="content" style="max-width: 1100px;"></div>
+    <main>
+        <article>
+            <section id="abouts" class="about" >
+                <h2 style="font-size:5vw" class="a" >ABOUT US</h2>
+                <p style="font-size:3vw" class="aa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure accusantium dolorum veritatis dolor placeat beatae temporibus voluptate odit repellendus itaque fuga architecto omnis optio quam, nostrum veniam iusto, tempora eligendi.
+                Ea earum reprehenderit repellat tempora amet necessitatibus quidem maxime dolorem incidunt ratione cum et, natus laborum quasi distinctio nobis quo! Quidem corrupti voluptatem est, eligendi recusandae nemo commodi atque autem!
+                Ad dolorum cum ipsum autem officia, qui minima, vel, praesentium id a repellendus! Inventore veritatis atque voluptatum voluptates quidem assumenda eos pariatur rerum et quisquam magni, culpa officiis aspernatur ratione!i? Ullam, aut quod! Mollitia fugiat perferendis quas eos nostrum debitis necessitatibus perspiciatis, ipsum modi, architecto quae vero? Ullam quisquam tempore id voluptatibus? Sapiente, aliquid facilis.</p>
+            </section>
+            <hr>
+            <section id="products">
+                <h2 style="font-size:5vw" class="prod">PRODUCTS</h2>
+                <img src="pic.jpg" class="p">
+            </section>
+            <hr>
+            <section id="promos">
+                <h2 style="font-size:5vw" class="pro">PROMOS</h2>
+                <img src="promo.jpg" class="prom">
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer id="contacts">
+        <h2>CONTACT US</h2>
+        <a href="https://www.facebook.com/"
+        target="_blank">Facebook</a>
+    </footer>
+</body>
+</html>
